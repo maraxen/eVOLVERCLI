@@ -11,11 +11,21 @@ WARNING: It is highly recommended you review the code of these scripts in an IDE
 
 It is recommended you fork and clone. I am a relative novice when it comes to Git, but my understanding it that Git automatically verifies hashes. If concerns remain, you can check signatures using the git log.ShowSignature configuration setting.
 
+
+
+
 Current Functions Covered
+
 Logging OD and Temperature Calibrations
+
 Running Experiments (custom_script.py MUST be set up appropriately before initiating a run; hopefully queried input from users can be parsed into the python scripts in a future release)
+
 Opening the Electron Shell
+
 Opening the Graphing Utility
+
+
+
 
 The scripts contain silenced lines for user-queried input for those who may have multiple eVOLVERs/changing variables. I have not had a test to adequately debug thesee or the Windows batch script as of 12/08/2020.
 
