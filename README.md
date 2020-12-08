@@ -5,6 +5,8 @@ eVOLVER CLI v0.3 Read Me
 
 The eVOLVER CLI is designed to facilitate use of the eVOLVER scripts usually called in through a terminal command and querying user input through a bash script for MacOS and Linux, and a batch script for Windows.
 
+The scripts assume this folder will be in a parent directory with the dpu and electron repos. You may need to modify the called paths for your system.
+
 WARNING: It is highly recommended you review the code of these scripts in an IDE and make sure you understand what you are running.
 
 It is recommended you fork and clone. I am a relative novice when it comes to Git, but my understanding it that Git automatically verifies hashes. If concerns remain, you can check signatures using the git log.ShowSignature configuration setting.
